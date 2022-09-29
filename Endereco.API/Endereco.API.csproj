@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Endereco.Application\Endereco.Application.csproj" />
+    <ProjectReference Include="..\Endereco.Infrastructure\Endereco.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
